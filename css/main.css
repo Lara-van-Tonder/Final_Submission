@@ -203,12 +203,46 @@ nav{
     width: 277px;
     height: 277px;
     background-image: url("/assets/images/1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    width: 277px;
+    height: 277px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 207px;
+    opacity: 0;
+}
+
+.overlay:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.icon{
+    width: ;
+}
+
+.content{
+    width: 277px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+
+.content p, h6{
+    padding-left: 10px;
+    padding-top: 3px;
 }
 
 .img-2{
     width: 277px;
     height: 277px;
     background-image: url("/assets/images/2.png");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-3{
