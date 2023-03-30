@@ -5,7 +5,7 @@ body{
 header{
     width: 100%;
     height: 840px;
-    background-image: url("../assets/images/cover-image.png");
+    background-image: url("../assets/images/cover-image.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -51,7 +51,7 @@ nav{
     width: 15.5%;
     height: 40px;
     background-color: black; /*How do I change text colour?*/
-    opacity: 50%;
+    opacity: 0.5;
     float: right;
     padding-left: 15px;
     border: 3px solid cyan;
@@ -139,7 +139,7 @@ nav{
 .btn-p-n{
     width: 300px;
     height: 50px;
-    margin-top: 260px;
+    margin-top: 230px;
     margin-left: 70%;
 }
 
@@ -171,10 +171,11 @@ nav{
 /*Recent Releases*/
 
 .recent-releases{
-    height: 400px;
+    width: 100%;
+    height: 450px;
     margin-top: 580px;
     color: white;
-    background-color: red;
+    background-color: ;
     padding-left: 1.5%;
     padding-right: 1.5%;
 }
@@ -185,33 +186,24 @@ nav{
 
 .page-one-layout{
     width: 100%;
-    height: 584px;
+    height: 300px;
     margin: 0 auto;
-    background-color: pink;
+    background-color: ;
+}
+
+.col-3{
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
-
-.album-info{
-    width: 277px;
-    height: 80px;
-    background-color: #2b2b2b;
-    color: white;
-}
-
-.img-1{
-    width: 277px;
-    height: 277px;
-    background-image: url("/assets/images/1.png");
-    background-position: center;
-    background-size: cover;
-}
 
 .overlay{
     width: 277px;
     height: 277px;
     background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 207px;
+    padding-top: 97px;
     opacity: 0;
 }
 
@@ -221,12 +213,15 @@ nav{
 }
 
 .icon{
-    width: ;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .content{
     width: 277px;
-    height: 70px;
+    height: 60px;
     background-color: black;
     color: white;
     opacity: 0.9;
@@ -234,13 +229,20 @@ nav{
 
 .content p, h6{
     padding-left: 10px;
-    padding-top: 3px;
+}
+
+.img-1{
+    width: 277px;
+    height: 277px;
+    background-image: url("/assets/images/1.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-2{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/2.png");
+    background-image: url("/assets/images/2.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -248,13 +250,17 @@ nav{
 .img-3{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/3.png");
+    background-image: url("/assets/images/3.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-4{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/4.png");
+    background-image: url("/assets/images/4.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -263,9 +269,10 @@ nav{
 /*Popular Albums*/
 
 .popular-albums{
-    height: 650px;
+    width: 100%;
+    height: 850px;
     color: white;
-    background-color: green;
+    background-color: ;
     padding-left: 1.5%;
     padding-right: 1.5%;
 }
@@ -277,49 +284,65 @@ nav{
 .img-5{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/5.png");
+    background-image: url("/assets/images/5.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-6{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/6.png");
+    background-image: url("/assets/images/6.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-7{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/7.png");
+    background-image: url("/assets/images/7.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-8{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/8.png");
+    background-image: url("/assets/images/8.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-9{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/9.png");
+    background-image: url("/assets/images/9.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-10{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/10.png");
+    background-image: url("/assets/images/10.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-11{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/11.png");
+    background-image: url("/assets/images/11.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .img-12{
     width: 277px;
     height: 277px;
-    background-image: url("/assets/images/12.png");
+    background-image: url("/assets/images/12.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 
