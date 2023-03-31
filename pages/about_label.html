@@ -13,7 +13,7 @@
     <!--Internal Documents-->
     <link rel="stylesheet" href="../css/main.css">
 
-</head>
+</head> <!--Somewhere on this page is a margin or padding which is making the page stretch pass the 100% width... Need to figure out where it is.-->
 <body>
     <nav class="about-label">
         <div>
@@ -33,22 +33,32 @@
     </nav>
 
 
+
+
     <!--This Is Us: STREAM-->
 
     <section class="this-is-us">
         <div class="page-two-layout">
             <div class="row">
                 <div class="col-6"> <!--Boxes are too far apart - need to figure out how to put them closer.-->
-                    <div class="this-is-us-box"> <!--Need to add contact email and phone number-->
+                    <div class="this-is-us-box">
                         <h3>This Is Us</h3>
-                        <h1>STREAM</h1>
+                        <h1><strong>STREAM</strong></h1>
                         <br>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ad expedita quae blanditiis saepe eveniet, accusamus aliquid placeat perspiciatis dignissimos excepturi dolorem debitis repudiandae at sed, dolore quo accusantium! Consectetur!</p>
-                        <div class="map-box"></div>
+                        <p>Welcome to the only Rock music streaming site you need! Stream is all about sharing the boom bap beats with the world. From the O.G hard rockers who paved their way into music history to the latest metal bands, on Stream you can listen to the hottest tracks from all over the world.</p>
+                        <div class="contact-info">
+                            <ul>
+                                <li class="email"><img src="/assets/icons/email_icon.svg" alt="">info@stream.com</li> <!--Not sure what to put in alt.-->
+                                <li class="phone"><img src="/assets/icons/phone_icon.svg" alt="">012 345 6789</li> <!--Not sure what to put in alt.-->
+                            </ul> <!--Always wrap svg image!-->
+                        </div>
+                        <div class="map-box">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66834.49085613604!2d-0.18795741737364866!3d51.49942520319581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sza!4v1680260054678!5m2!1sen!2sza" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="get-in-touch-box"> <!--Need to work on margins and padding for this section.-->
+                    <div class="get-in-touch-box"> <!--Need to work on margins and padding for this section. How do I get things centered?-->
                         <form> <!--Struggling to get text colour inside elm's white. Also struggling to get it centered.-->
                             <h3>GET IN TOUCH</h3>
                             <input class="input-elm" type="text" placeholder="Your Name" required>
@@ -72,10 +82,22 @@
     </section>
 
 
+
+
+
+
     <!--Footer-->
 
-    <footer class="page-2">
+    <footer>
         <p><strong>STREAM (copyright) 2021</strong></p> <!--Add CC logo/symbol-->
+        <div class="social-media-links"> <!--These are just placeholder icons until we receive the social media icons.-->
+            <ul>
+                <li class="youtube"><img src="/assets/icons/left_arrow_icon.svg" alt=""></li> <!--Not sure what to put in alt.-->
+                <li class="facebook"><img src="/assets/icons/left_arrow_icon.svg" alt=""></li> <!--Not sure what to put in alt.-->
+                <li class="twitter"><img src="/assets/icons/left_arrow_icon.svg" alt=""></li> <!--Not sure what to put in alt.-->
+                <li class="instagram"><img src="/assets/icons/left_arrow_icon.svg" alt=""></li> <!--Not sure what to put in alt.-->
+            </ul> <!--Always wrap svg image!-->
+        </div>
     </footer> <!--Need to add social media links-->
     
 </body>

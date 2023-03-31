@@ -33,18 +33,23 @@
     </nav>
 
 
+
+
+
+
     <!--My Playlists-->
 
     <section class="favorites-mix">
         <div class="page-three-layout">
+            <h4>My Playlists</h4>
             <div class="row">
-                <div class="col-6">
-                    <div class="playlist-box"> <!--Need to add play button-->
-                        <h1><strong>FAVORITES</strong></h1> <!--Font size needs to be bigger.-->
+                <div class="col-5">
+                    <div class="playlist-box"> <!--Need to add logo svg-->
+                        <h1><strong>FAVORITES</strong></h1>
                         <h2><strong>MIX</strong></h2>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-7">
                     <div class="song-queue-box"> <!--No idea how to do this-->
                         <p><strong>Song Title</strong></p>
                         <ol>
@@ -62,12 +67,30 @@
     </section>
 
 
+
+
+    
+
     <!--Footer-->
 
     <footer class="page-3"> <!--Still need to fix a lot of things here.-->
-        <p><strong>SONG TITLE</strong></p>
-        <p>Artist</p>
-    </footer> <!--Add all buttons.-->
+        <div class="player-line">
+            <div class="line">
+                <div class="inner-line"></div>
+            </div>
+            <div class="marker"></div>
+        </div>
+        <div class="currently-playing"> <!--This still needs a lot of styling...-->
+            <ul>
+                <li><div class="artist-img"></div></li>
+                <li><p><strong>SONG TITLE</strong></p></li>
+                <li><p>Artist</p></li>
+                <li class="email"><img src="/assets/icons/previous_icon.svg" alt=""></li>
+                <li class="email"><img src="/assets/icons/pause_icon.svg" alt=""></li>
+                <li class="email"><img src="/assets/icons/next_icon.svg" alt=""></li>
+            </ul> <!--Remember to add time at end and more info button/icon.-->
+        </div>
+    </footer>
 
 </body>
 </html>
