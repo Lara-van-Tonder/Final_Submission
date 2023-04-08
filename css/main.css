@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #111111;
 }
 
 header{
@@ -23,38 +23,45 @@ nav{
     padding-right: 3.5%;
 }
 
-.logo{
-    float: left;
-    padding-right: 1.5%;
-    color: white;
-}
-
 .nav-con{
     width: 100%;
-    height: 50px;
+    height: 55px;
+}
+
+.logo{
+    width: 180px;
+    height: 55px;
+    background-image: url('/assets/Logo/stream_logo_white.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .nav-con ul{
+    width: 1145px;
+    height: 55px;
     list-style: none;
+    padding-left: 20%;
+    margin-left: 100%;
 }
 
 .nav-con li{
     float: left;
     color: white;
-    padding-top: 8px;
+    padding-top: 15px;
     padding-left: 1.5%;
     padding-right: 1.5%;
 }
 
-.button-search{
-    width: 15.5%;
+.button-search-p1{
+    width: 250px;
     height: 40px;
     background-color: black; /*How do I change text colour?*/
+    color: white;
     opacity: 0.5;
-    float: right;
-    padding-left: 15px;
-    border: 3px solid cyan;
+    border: 3px solid magenta;
     border-radius: 25px;
+    padding-left: 15px;
+    margin-left: 121.5%;
 }
 
 
@@ -72,6 +79,16 @@ nav{
     color: white;
 }
 
+.hero-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.hero-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+}
+
 .hero-buttons{
     width: 652px;
     height: 70px;
@@ -84,13 +101,14 @@ nav{
 
 .hero-buttons li{
     float: left;
-    border: 3px solid cyan;
+    border: 3px solid black;
+    background-color: purple;
 }
 
 .btn-play-shuffle{
     width: 225px;
     height: 70px;
-    color: white;
+    color: black;
     border-radius: 50px;
     text-align: center;
     padding-top: 20px;
@@ -107,7 +125,7 @@ nav{
 
 .hero-buttons li:hover{
     cursor: pointer;
-    background-color: cyan;
+    background-color: magenta;
     color: black;
 }
 
@@ -125,9 +143,9 @@ nav{
 .ft-artist-box{
     width: 60%;
     height: 560px;
-    background-color: #2b2b2b;
-    opacity: 0.7;
+    background-color: rgba(128, 0, 128, 0.5);
     color: white;
+    text-align: justify;
     padding-left: 7%;
     padding-right: 3%;
     padding-top: 25px;
@@ -135,11 +153,23 @@ nav{
     float: right;
 }
 
+.ft-artist-box h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ft-artist-box h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
 .btn-p-n{
     width: 300px;
     height: 50px;
-    margin-top: 230px;
-    margin-left: 70%;
+    cursor: pointer;
+    margin-top: 130px;
+    margin-left: 57%;
 }
 
 .btn-p-n ul{
@@ -154,7 +184,6 @@ nav{
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 .vid-box{
     width: 42%;
@@ -174,26 +203,22 @@ nav{
     height: 450px;
     margin-top: 580px;
     color: white;
-    background-color: ;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
 }
 
 .recent-releases h3{
+    font-family: 'Montserrat', sans-serif;
     padding-left: 30px;
 }
 
 .page-one-layout{
-    width: 100%;
+    width: 90%;
     height: 300px;
     margin: 0 auto;
-    background-color: ;
+    margin-left: 6%;
 }
 
 .col-3{
     padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 
@@ -221,13 +246,23 @@ nav{
 .content{
     width: 277px;
     height: 60px;
-    background-color: black;
+    background-color: purple;
     color: white;
     opacity: 0.9;
 }
 
 .content p, h6{
     padding-left: 10px;
+}
+
+.content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.content h6{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
 }
 
 .img-1{
@@ -276,6 +311,7 @@ nav{
 }
 
 .popular-albums h3{
+    font-family: 'Montserrat', sans-serif;
     padding-left: 30px;
 }
 
@@ -351,33 +387,21 @@ nav{
 footer{
     width: 100%;
     height: 150px;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     margin-top: 15px;
     padding-left: 1.5%;
     padding-bottom: 30px;
 }
 
-.nav-con{
-    width: 100%;
-    height: 50px;
-}
-
-.nav-con ul{
-    list-style: none;
-}
-
-.nav-con li{
-    float: left;
-    color: white;
-    padding-top: 8px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
+footer p{
+    padding-left: 2%;
 }
 
 .social-media-links{
-    width: 250px;
+    width: 270px;
     height: 50px;
-    margin-left: 80%;
+    margin-left: 78%;
 }
 
 .social-media-links ul{
@@ -386,8 +410,68 @@ footer{
 
 .social-media-links li{
     float: left;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.instagram{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.twitter{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.youtube{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.facebook:hover{
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.instagram:hover{
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.youtube:hover{
+    width: 50px;
+    height: 50px;
+    background-color: magenta;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 
@@ -413,6 +497,18 @@ footer{
     padding-right: 50px;
 }
 
+.button-search-p2{
+    width: 250px;
+    height: 40px;
+    background-color: black; /*How do I change text colour?*/
+    color: white;
+    opacity: 0.5;
+    border: 3px solid magenta;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-left: 119%;
+}
+
 
 
 
@@ -420,26 +516,33 @@ footer{
 
 .this-is-us{
     width: 100%;
-    height: 600px;
-    color: white;
+    height: 700px;
+    padding-top: 100px;
 }
 
-.page-two-layout{
+.container-fluid{
     width: 100%;
-    margin-top: 175px;
+    height: 500px;
+}
+
+.col-6{
+    width: 40%;
+    height: 500px;
+    margin: 0 auto !important;
 }
 
 .this-is-us-box{
-    width: 70%;
-    height: 500px;
-    margin: 0 auto;
-    margin-bottom: 80px;
+    color: white;
+    text-align: justify;
 }
 
 .contact-info{
-    width: 100%px;
+    width: 100%;
     height: 50px;
-    margin-top: 60px;
+    background-color: purple;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .contact-info ul{
@@ -448,80 +551,73 @@ footer{
 
 .contact-info li{
     float: left;
-    padding-right: 100px;
-}
-
-.contact-info li img{
-    padding-right: 10px;
-}
-
-.map-box{
-    width: 100%;
-    height: 200px;
-    background-color: gray;
-    margin-top: 20px;
+    margin-left: 6%;
+    margin-right: 7%;
 }
 
 .get-in-touch-box{
-    width: 70%;
-    height: 540px;
-    background-color: #2b2b2b;
-    opacity: 0.7;
-    margin: 0 auto;
-    margin-bottom: 80px;
+    color: white;
 }
 
 form{
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    background-color: #2b2b2b;
+    border-radius: 5px;
     padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 25px;
-    padding-bottom: 50px;
 }
 
 .get-in-touch-box h3{
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 .input-elm{
-    width: 90%;
+    width: 95%;
     height: 35px;
+    background-color: purple;
+    color: white;
+    border: 3px solid black;
     border-radius: 25px;
     padding-left: 15px;
     margin-top: 15px;
-    border: none;
-    background-color: gray;
-    color: white;
 }
 
 select{
-    width: 90%;
+    width: 95%;
     height: 35px;
-    background-color: gray;
+    background-color: purple;
     color: white;
+    border: 3px solid black;
     border-radius: 25px;
+    padding-left: 15px;
     margin-top: 15px;
 }
 
 textarea{
-    width: 90%;
-    height: 70px;
-    background-color: gray;
+    width: 95%;
+    height: 125px;
+    background-color: purple;
     color: white;
+    border: 3px solid black;
     border-radius: 25px;
+    padding-left: 15px;
     margin-top: 15px;
 }
 
 button{
     width: 35%;
     height: 55px;
-    background-color: cyan;
+    background-color: purple;
     color: black;
-    border: none;
+    border: 3px solid black;
     border-radius: 25px;
-    margin-left: 265px;
-    margin-top: 30px;
+    margin-left: 59%;
+    margin-top: 55px;
+}
+
+button:hover{
+    background-color: magenta;
 }
 
 
@@ -546,42 +642,82 @@ button{
     padding-right: 50px;
 }
 
+.button-search-p3{
+    width: 250px;
+    height: 40px;
+    background-color: black; /*How do I change text colour?*/
+    color: white;
+    opacity: 0.5;
+    border: 3px solid magenta;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-left: 118.5%;
+}
+
 
 
 
 
 /*My Playlists*/
 
-.page-three-layout{
+.favorites-mix{
     width: 100%;
-    margin-top: 175px;
-    padding-left: 122px;
-    padding-right: 122px;
+    height: 500px;
     color: white;
 }
 
+.playlists{
+    width: 50%;
+    height: 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 33%;
+}
+
+.playlists ul{
+    list-style: none;
+}
+
+.playlists li{
+    float: left;
+    padding-right: 12%;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-4{
+    width: 30%;
+    height: 400px;
+    margin-right: 2%;
+}
+
+.col-1{
+    width: 5%;
+    height: 400px;
+    text-align: center;
+}
+
+.col-2{
+    width: 20%;
+    height: 400px;
+    margin-right: 2%;
+}
+
 .playlist-box{
-    width: 470px;
-    height: 470px;
-    background-image: url("/assets/images/page_3_favourites_mix.png");
+    width: 350px;
+    height: 350px;
+    background-image: url("/assets/images/playlist_cover.jpg");
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
-    padding-top: 160px;
-}
-
-.playlist-box h1{
-    font-size: 70px;
-}
-
-.playlist-box h2{
-    font-size: 50px;
-}
-
-.song-queue-box{
-    width: 550px;
-    height: 470px;
+    padding-top: 130px;
 }
 
 
@@ -591,13 +727,13 @@ button{
 /*Footer*/
 
 .page-3{
-    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 .player-line{
     width: 97%;
     height: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -611,14 +747,15 @@ button{
 .inner-line{
     height: 5px;
     width: 30%;
-    background-color: cyan;
+    background-color: magenta;
 }
 
 .marker{
     width: 20px;
     height: 20px;
+    cursor: pointer;
     border-radius: 50%;
-    background-color: cyan;
+    background-color: magenta;
     margin-left: 30%;
     margin-top: -12px;
 }
@@ -626,9 +763,10 @@ button{
 .artist-img{
     width: 50px;
     height: 50px;
-    background-image: url("/assets/images/page_3_artist_image.png");
+    background-image: url("/assets/images/Lana-Del_Rey.jpeg");
     background-size: cover;
     background-position: center;
+    margin-top: 25px;
 }
 
 .currently-playing{
@@ -642,6 +780,33 @@ button{
 
 .currently-playing li{
     float: left;
-    padding-right: 50px;
+    padding-right: 3.8%;
 }
 
+.currently-playing p{
+    width: 110%;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
+
+.previous{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 14%;
+}
+
+.pause{
+    cursor: pointer;
+}
+
+.next{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 20%;
+}
+
+.more-info{
+    cursor: pointer;
+    margin-top: 30px;
+}
