@@ -13,6 +13,7 @@ header{
 
 
 
+
 /*Navigation*/
 
 nav{
@@ -55,7 +56,7 @@ nav{
 .button-search-p1{
     width: 250px;
     height: 40px;
-    background-color: black; /*How do I change text colour?*/
+    background-color: black;
     color: white;
     opacity: 0.5;
     border: 3px solid magenta;
@@ -63,6 +64,7 @@ nav{
     padding-left: 15px;
     margin-left: 121.5%;
 }
+
 
 
 
@@ -129,6 +131,7 @@ nav{
     background-color: magenta;
     color: black;
 }
+
 
 
 
@@ -201,6 +204,7 @@ nav{
 
 
 
+
 /*Recent Releases*/
 
 .recent-releases{
@@ -225,8 +229,6 @@ nav{
 .col-3{
     padding-bottom: 30px;
 }
-
-
 
 .overlay{
     width: 277px;
@@ -301,6 +303,7 @@ nav{
     background-position: center;
     background-size: cover;
 }
+
 
 
 
@@ -383,6 +386,7 @@ nav{
     background-position: center;
     background-size: cover;
 }
+
 
 
 
@@ -488,7 +492,6 @@ footer p{
 
 
 
-
 /*PAGE 2: About Label*/
 
 
@@ -505,7 +508,7 @@ footer p{
 .button-search-p2{
     width: 250px;
     height: 40px;
-    background-color: black; /*How do I change text colour?*/
+    background-color: black;
     color: white;
     opacity: 0.5;
     border: 3px solid magenta;
@@ -513,6 +516,7 @@ footer p{
     padding-left: 15px;
     margin-left: 119%;
 }
+
 
 
 
@@ -556,7 +560,6 @@ footer p{
     height: 50px;
     background-color: purple;
     color: black;
-    margin-top: ;
     margin-bottom: 5px;
 }
 
@@ -671,7 +674,7 @@ button:hover{
 .button-search-p3{
     width: 250px;
     height: 40px;
-    background-color: black; /*How do I change text colour?*/
+    background-color: black;
     color: white;
     opacity: 0.5;
     border: 3px solid magenta;
